@@ -29,11 +29,12 @@ Beach			  = create_biome_data("Beach",				rgb(224, 228, 87),	 , , , 1);
 Burnt_Forest	  = create_biome_data("Burnt Forest",		c_red,				 , , , 2);
 Plains			  = create_biome_data("Plains",				rgb(236, 238, 143),	 , , , 2);
 Forest			  = create_biome_data("Forest",				c_green,			 , , , 2);
-Maple_Forest	  = create_biome_data("Maple Forest",		c_maroon,			 , , , 1);
+Maple_Forest	  = create_biome_data("Maple Forest",		rgb(165,57,5),		 , , , 1);
 Swamp			  = create_biome_data("Swamp", 				rgb(191,108,30),	 , , , 1);
 Light_Mountains	  = create_biome_data("Light Mountains",	c_gray,				 , , , 1);
 Broken_City		  = create_biome_data("Broken City",		c_fuchsia,			 , , , 1);
-Tundra			  = create_biome_data("Tundra",				rgb(100,199,189),	 , , , 1);
+//Tundra		  = create_biome_data("Tundra",				rgb(100,199,189),	 , , , 1);
+Old_Growth_Forest = create_biome_data("Old Growth Forest",	c_maroon,			 , , , 1);
 Snow			  = create_biome_data("Snow",				rgb(75,166,232),	 , , , 1);
 Tropical_Forest	  = create_biome_data("Tropical Forest",	rgb(154,211,68),	 , , , 1);
 Salt_Flats		  = create_biome_data("Salt Flats",			rgb(154,211,68),     , , , 1);
@@ -49,7 +50,7 @@ global.biomes =
 [
 [[Deep_Ocean],		[Mid_Ocean],	[Shallow_Ocean],	[River],				[Beach]],
 [[Burnt_Forest],	[Plains],		[Forest],			[Maple_Forest],			[Swamp]],
-[[Light_Mountains],	[Broken_City],	[Tundra],			[Snow],					[Tropical_Forest]],
+[[Light_Mountains],	[Broken_City],	[Old_Growth_Forest],[Snow],					[Tropical_Forest]],
 [[Salt_Flats],		[Desert],		[Mesa],				[Broken_Theme_Park],	[Heavy_Mountains]]
 ]
 }
